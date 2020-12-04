@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/pages/Home'
+import AboutUs from './components/pages/AboutUs'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <NavigationBar />
         <Switch>
           <Route path='/' extact component={Home} />
+          <Route path='/' extact component={AboutUs} />
         </Switch>
       </Router>
     </>
