@@ -1,0 +1,8 @@
+.apartment-img{
+    
+}
+
+.apartment{
+    display: flex;
+    flex-direction: row;
+}
