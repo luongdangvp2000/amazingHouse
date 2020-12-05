@@ -13,8 +13,10 @@ function App() {
       <Router>
         <NavigationBar />
         <Switch>
+          
           <Route path='/' extact component={Home} />
-          <Route path='/' extact component={AboutUs} />
+          <Route path='/aboutus' component={AboutUs} />
+
         </Switch>
       </Router>
     </>

@@ -4,6 +4,10 @@ import Col from 'react-bootstrap/Col'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import './NavigationBar.css'
+import {Tabs, Tab} from 'react-bootstrap'
+import Home from '../components/pages/Home'
+import AboutUs from './pages/AboutUs'
+import {Link} from 'react-router-dom'
 
 function NavigationBar() {
   const [loginShow, setLoginShow] = useState(false);
@@ -14,12 +18,14 @@ function NavigationBar() {
       <Navbar.Brand className="col-8" href="#">House For U <i className="fas fa-home"></i></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
+
       <Navbar.Collapse id="responsive-navbar-nav" className="col-4" xs="auto" md="auto">
         <Nav className="mr-auto">
-          <button className="btn btn-light"><Nav.Link className="nav-link" href="#">Home</Nav.Link></button>
-          <button className="btn btn-light"><a className="nav-link" href="#">About us</a></button>
-          <button className="btn btn-light" onClick={() => setLoginShow(true)} onClick={() => setLoginShow(true)}><a className="nav-link"><span class="glyphicon glyphicon-log-in"></span>Login</a></button>
-          <button className="btn btn-lgiht" onClick={() => setSignupShow(true)}><a className="nav-link"><span class="glyphicon glyphicon-user"></span>Sign up</a></button>
+          <Nav.Item><button className="btn btn-light"><Link className="nav-link" to="/">Home</Link></button></Nav.Item>
+          <Nav.Item><button className="btn btn-light"><Link as={Link} className="nav-link" to="/aboutus">About us</Link></button></Nav.Item>
+          <Nav.Item><button className="btn btn-light"><Nav.Link className="nav-link" to="">Contact</Nav.Link></button></Nav.Item>
+          <Nav.Item><button className="btn btn-light" onClick={() => setLoginShow(true)} onClick={() => setLoginShow(true)}><Nav.Link className="nav-link">Login</Nav.Link></button></Nav.Item>
+          <Nav.Item><button className="btn btn-lgiht" onClick={() => setSignupShow(true)}><Nav.Link className="nav-link">Sign up</Nav.Link></button></Nav.Item>
         </Nav>
       </Navbar.Collapse>
 
