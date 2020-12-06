@@ -17,7 +17,7 @@ function CardIntro() {
                         <Card.Text>
                             This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
                         </Card.Text>
-                        <Button><Card.Link href="#">Contact</Card.Link></Button>
+                        <Button className="btn btn-info"><Card.Link href="#">Contact</Card.Link></Button>
                     </Card.Body>
                 </Card>
 

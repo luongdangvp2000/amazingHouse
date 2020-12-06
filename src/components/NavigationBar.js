@@ -4,10 +4,10 @@ import Col from 'react-bootstrap/Col';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './NavigationBar.css';
-import {Tabs, Tab} from 'react-bootstrap'
+import { Tabs, Tab } from 'react-bootstrap'
 import Home from '../components/pages/Home'
 import AboutUs from './pages/AboutUs'
-import {BrowserRouter as Router, Link} from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 function NavigationBar() {
   const [loginShow, setLoginShow] = useState(false);
@@ -24,7 +24,7 @@ function NavigationBar() {
           <Nav.Item><button className="btn btn-light"><Nav.Link as={Link} className="nav-link" to="/">Home</Nav.Link></button></Nav.Item>
           <Nav.Item><button className="btn btn-light"><Nav.Link as={Link} className="nav-link" to="/aboutus">About us</Nav.Link></button></Nav.Item>
           <Nav.Item><button className="btn btn-light"><Nav.Link as={Link} className="nav-link" to="/contact">Contact</Nav.Link></button></Nav.Item>
-          <Nav.Item><button className="btn btn-light" onClick={() => setLoginShow(true)} onClick={() => setLoginShow(true)}><Nav.Link className="nav-link">Login</Nav.Link></button></Nav.Item>
+          <Nav.Item><button className="btn btn-light" onClick={() => setLoginShow(true)}><Nav.Link className="nav-link">Login</Nav.Link></button></Nav.Item>
           <Nav.Item><button className="btn btn-lgiht" onClick={() => setSignupShow(true)}><Nav.Link className="nav-link">Sign up</Nav.Link></button></Nav.Item>
         </Nav>
       </Navbar.Collapse>
@@ -42,10 +42,8 @@ function NavigationBar() {
             <label for="password-login">Password</label>
             <input type="password" class="form-control" id="password-login" />
           </div>
+          <Button type="submit" className="btn btn-success btn-block btn-lg text-center" >Login</Button>
         </Modal.Body>
-        <Modal.Footer >
-          <Col xs={4} md={8}><button type="submit" className="btn btn-success btn-lg text-center">Login</button></Col>
-        </Modal.Footer>
       </Modal>
 
       <Modal className="nav-item" show={signupShow} onHide={() => setSignupShow(false)}>
@@ -73,10 +71,8 @@ function NavigationBar() {
             <label for="email">Email</label>
             <input type="email" className="form-control" id="Email" />
           </div>
+          <Button className="btn btn-success btn-block btn-lg">Sign Up</Button>
         </Modal.Body>
-        <Modal.Footer>
-          <Col xs={4} md={8}><div><Button className="btn btn-success btn-lg">Sign Up</Button></div></Col>
-        </Modal.Footer>
       </Modal>
     </Navbar >
   );
