@@ -6,7 +6,7 @@ function IntroducePage() {
        <Jumbotron>
            <div>
                 <h1>About Us Page</h1>
-                <p>We try to build a website for everyone to rent house. Help many people make us feel very happy and meaningful. Day by dau, we are together to make our life more beautiful</p>
+                <p>We try to build a website for everyone to rent house. Help many people make us feel very happy and meaningful. Day by day, we are together to make our life more beautiful.</p>
             </div>
        </Jumbotron>
     );

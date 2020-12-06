@@ -13,10 +13,9 @@ function App() {
       <Router>
         <NavigationBar />
         <Switch>
-          
-          <Route path='/' extact component={Home} />
           <Route path='/aboutus' component={AboutUs} />
-
+          <Route path='/' extact component={Home} />
+          
         </Switch>
       </Router>
     </>
