@@ -9,19 +9,19 @@ function CardIntro() {
         <div>
             <h1>Our Team</h1>
             <CardGroup>
-                <Card>
+                <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src="./images/Dang.jpg" />
                     <Card.Body>
                         <Card.Title>Luong Ngoc Dang</Card.Title>
                         <Card.Text>Front-End Developer</Card.Text>
                         <Card.Text>
                             This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                    </Card.Text>
+                        </Card.Text>
                         <Button><Card.Link href="#">Contact</Card.Link></Button>
                     </Card.Body>
                 </Card>
 
-                <Card>
+                <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src="" />
                     <Card.Body>
                         <Card.Title>Vu Van Thang</Card.Title>
@@ -34,7 +34,7 @@ function CardIntro() {
 
                 </Card>
 
-                <Card>
+                <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src="" />
                     <Card.Body>
                         <Card.Title>Hoang Trung Dung</Card.Title>
