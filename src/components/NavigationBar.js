@@ -18,7 +18,6 @@ function NavigationBar() {
       <Navbar.Brand className="col-8" href="#">House For U <i className="fas fa-home"></i></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
-
       <Navbar.Collapse id="responsive-navbar-nav" className="col-4" xs="auto" md="auto">
         <Nav className="mr-auto">
           <Nav.Item><button className="btn btn-light"><Nav.Link as={Link} className="nav-link" to="/">Home</Nav.Link></button></Nav.Item>
@@ -42,7 +41,7 @@ function NavigationBar() {
             <label for="password-login">Password</label>
             <input type="password" class="form-control" id="password-login" />
           </div>
-          <Button type="submit" className="btn btn-success btn-block btn-lg text-center" >Login</Button>
+          <Button type="submit" className="btn btn-success btn-block btn-lg" >Login</Button>
         </Modal.Body>
       </Modal>
 
