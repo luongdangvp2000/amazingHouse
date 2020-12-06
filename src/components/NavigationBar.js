@@ -23,7 +23,7 @@ function NavigationBar() {
         <Nav className="mr-auto">
           <Nav.Item><button className="btn btn-light"><Nav.Link as={Link} className="nav-link" to="/">Home</Nav.Link></button></Nav.Item>
           <Nav.Item><button className="btn btn-light"><Nav.Link as={Link} className="nav-link" to="/aboutus">About us</Nav.Link></button></Nav.Item>
-          <Nav.Item><button className="btn btn-light"><Nav.Link className="nav-link" to="">Contact</Nav.Link></button></Nav.Item>
+          <Nav.Item><button className="btn btn-light"><Nav.Link as={Link} className="nav-link" to="/contact">Contact</Nav.Link></button></Nav.Item>
           <Nav.Item><button className="btn btn-light" onClick={() => setLoginShow(true)} onClick={() => setLoginShow(true)}><Nav.Link className="nav-link">Login</Nav.Link></button></Nav.Item>
           <Nav.Item><button className="btn btn-lgiht" onClick={() => setSignupShow(true)}><Nav.Link className="nav-link">Sign up</Nav.Link></button></Nav.Item>
         </Nav>
