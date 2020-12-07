@@ -7,14 +7,13 @@ import Image from 'react-bootstrap/Image'
 function HouseTemplate() {
     return (
         <>
-            <h1>House Template</h1>
+            <h1 className="text-center">House Template</h1>
             <Container>
                 <Row className="gardenHouse">
                     <Col><Image className="gardenHouse-img" src='/images/gardenHouse.jpg' alt="gardenHouse" thumbnail /></Col>
                     <Col>
                         <p>Trapped in the chaos of daily life and chores, most urban dwellers long for a place to find peace of mind and return to nature. As it is hard to find such a place in megacities, gardening house offers nature lovers a chance to take up gardening in the comfort of your own home</p>
                     </Col>
-
                 </Row>
                 <Row className="aparment">
                     <Col>
