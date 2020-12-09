@@ -21,8 +21,6 @@ function Contact() {
                                     </div>
                                 </div>
 
-
-
                                 <div className="col-md-6">
                                     <div className="md-form mb-0">
                                         <label for="form-contact-email" className="">Your email</label>
@@ -57,8 +55,6 @@ function Contact() {
 
                             <div className="row">
 
-
-
                                 <div className="col-md-12">
                                     <div className="md-form mb-0">
                                         <label for="form-contact-message">Your message</label>
@@ -67,7 +63,6 @@ function Contact() {
                                         <button className="btn btn-light"><a className="btn-floating btn-lg blue">
                                             <i className="far fa-paper-plane"></i>
                                         </a></button>
-
                                     </div>
                                 </div>
 
@@ -83,9 +78,6 @@ function Contact() {
                         <div className="card-body contact text-center h-100 white-text">
 
                             <h3 className="my-4 pb-2">Contact information</h3>
-                            
-
-
                                 <ul className="text-lg-left list-unstyled ml-4">
                                     <li>
                                         <p><i className="fas fa-map-marker-alt pr-2"></i>Ha Noi, VietNam</p>

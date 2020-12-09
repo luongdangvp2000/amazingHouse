@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './HeroSection.css'
+import DropdownButton from 'react-bootstrap/DropdownButton'
+import Dropdown from 'react-bootstrap/Dropdown'
 
 
 function HeroSection() {
@@ -12,7 +14,26 @@ function HeroSection() {
                     <input className="form-control mr-sm-2" type="search" placeholder="Search you address" aria-label="Search" />
                     <button className="btn btn-outline-success" type="submit">Search</button>
                 </form>
-            </div>     
+
+                <Dropdown>
+                    <Dropdown.Toggle variant="success" id="dropdown-basic">
+                        Dropdown Button
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                    </Dropdown.Menu>
+                </Dropdown>
+                <Dropdown>
+                    <Dropdown.Toggle >
+                        
+                    </Dropdown.Toggle>
+                </Dropdown>
+
+            </div>
+            
+
         </div>
     );
 }
