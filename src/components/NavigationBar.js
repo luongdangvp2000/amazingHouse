@@ -8,9 +8,10 @@ import { Tabs, Tab } from 'react-bootstrap'
 import Home from '../components/pages/Home'
 import AboutUs from './pages/AboutUs'
 import { BrowserRouter as Router, Link } from 'react-router-dom';
+import LogIn from './pages/LogIn'
 
 function NavigationBar() {
-  const [loginShow, setLoginShow] = useState(false);
+
   const [signupShow, setSignupShow] = useState(false);
 
   return (
@@ -23,27 +24,10 @@ function NavigationBar() {
           <Nav.Item><button className="btn btn-light"><Nav.Link as={Link} className="nav-link" to="/">Home</Nav.Link></button></Nav.Item>
           <Nav.Item><button className="btn btn-light"><Nav.Link as={Link} className="nav-link" to="/aboutus">About us</Nav.Link></button></Nav.Item>
           <Nav.Item><button className="btn btn-light"><Nav.Link as={Link} className="nav-link" to="/contact">Contact</Nav.Link></button></Nav.Item>
-          <Nav.Item><button className="btn btn-light" onClick={() => setLoginShow(true)}><Nav.Link className="nav-link">Login</Nav.Link></button></Nav.Item>
-          <Nav.Item><button className="btn btn-lgiht" onClick={() => setSignupShow(true)}><Nav.Link className="nav-link">Sign up</Nav.Link></button></Nav.Item>
+          <Nav.Item><button className="btn btn-light"><Nav.Link as={Link} className="nav-link" to="/login">Login</Nav.Link></button></Nav.Item>
+          <Nav.Item><button className="btn btn-lgiht"><Nav.Link as={Link} className="nav-link" to="/signup">Sign up</Nav.Link></button></Nav.Item>
         </Nav>
       </Navbar.Collapse>
-
-      <Modal className="nav-item" show={loginShow} onHide={() => setLoginShow(false)}>
-        <Modal.Header closeButton>
-          <Modal.Title>Login</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <div className="form-group">
-            <label for="email-login">Email</label>
-            <input type="text" class="form-control" id="email-login" />
-          </div>
-          <div className="form-group">
-            <label for="password-login">Password</label>
-            <input type="password" class="form-control" id="password-login" />
-          </div>
-          <Button type="submit" className="btn btn-success btn-block btn-lg" >Login</Button>
-        </Modal.Body>
-      </Modal>
 
       <Modal className="nav-item" show={signupShow} onHide={() => setSignupShow(false)}>
         <Modal.Header closeButton>

@@ -48,10 +48,6 @@ function HeroSection() {
                     </Dropdown>
                 </div>
             </div>
-
-
-
-
         </div>
     );
 }
