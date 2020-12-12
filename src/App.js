@@ -21,9 +21,10 @@ function App() {
           <Route path='/contact' component={Contact} />
           <Route path='/aboutus' component={AboutUs} />
           <Route path='/' extact component={Home} />
-
         </Switch>
       </Router>
+
+      
     </>
   );
 }
