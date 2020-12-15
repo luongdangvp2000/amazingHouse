@@ -5,8 +5,10 @@ import { Row, Col, Jumbotron } from 'react-bootstrap'
 function Contact() {
 
     return (
-
         <div className="contact-section my-5">
+            <div>
+                <img src="./images/light.jpg" />
+            </div>
             <div className="card">
                 <div className="row">
                     <div className="col-lg-8">
@@ -78,18 +80,18 @@ function Contact() {
                         <div className="card-body contact text-center h-100 white-text">
 
                             <h3 className="my-4 pb-2">Contact information</h3>
-                                <ul className="text-lg-left list-unstyled ml-4">
-                                    <li>
-                                        <p><i className="fas fa-map-marker-alt pr-2"></i>Ha Noi, VietNam</p>
-                                    </li>
-                                    <li>
-                                        <p><i className="fas fa-phone pr-2"></i>+84352156529</p>
-                                    </li>
-                                    <li>
-                                        <p><i className="fas fa-envelope pr-2"></i>luongdangvp2000@gmail.com</p>
-                                    </li>
-                                </ul>
-                            
+                            <ul className="text-lg-left list-unstyled ml-4">
+                                <li>
+                                    <p><i className="fas fa-map-marker-alt pr-2"></i>Ha Noi, VietNam</p>
+                                </li>
+                                <li>
+                                    <p><i className="fas fa-phone pr-2"></i>+84352156529</p>
+                                </li>
+                                <li>
+                                    <p><i className="fas fa-envelope pr-2"></i>luongdangvp2000@gmail.com</p>
+                                </li>
+                            </ul>
+
                             <hr />
                             <div className="hr-light my-4 text-center">
                                 <ul className="list-inline text-center list-unstyled">

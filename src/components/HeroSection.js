@@ -11,10 +11,8 @@ function HeroSection() {
     return (
         <div className="hero-container">
             <div className="hero-child">
-
                 <h1 className="introduce">Welcome</h1>
                 <p className="introduce">Let's rent a house for you</p>
-
                 <Row>
                     <Col sm={9}>
                         <input className="form-control mr-sm-2" size="50" type="search" placeholder="Search your location" aria-label="Search" />
@@ -24,7 +22,7 @@ function HeroSection() {
                     </Col>
                 </Row>
 
-                <Row>
+                <Row className="mt-3">
                     <Col sm>
                         <Dropdown>
                             <Dropdown.Toggle as={Button} className="btn btn-light btn-block">Province</Dropdown.Toggle>
@@ -56,14 +54,6 @@ function HeroSection() {
                         </Dropdown>
                     </Col>
                 </Row>
-
-
-
-
-
-
-
-
             </div>
         </div>
     );

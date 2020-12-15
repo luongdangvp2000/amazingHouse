@@ -16,15 +16,14 @@ function App() {
       <Router>
         <NavigationBar />
         <Switch>
-          <Route path='/signup' component={SignUp}></Route>
+          <Route path='/signup' component={SignUp} />
           <Route path='/login' component={LogIn} />
           <Route path='/contact' component={Contact} />
           <Route path='/aboutus' component={AboutUs} />
           <Route path='/' extact component={Home} />
         </Switch>
+        
       </Router>
-
-      
     </>
   );
 }
