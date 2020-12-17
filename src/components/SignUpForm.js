@@ -7,7 +7,7 @@ import './css/SignUpForm.css'
 function SignUpForm() {
     return (
         <>
-            <Container>
+            <Container className="pt-5 mt-5">
                 <Row>
                     <Col>
                         <h3>Sign Up</h3>
@@ -54,6 +54,9 @@ function SignUpForm() {
                             </Form.Group>
                             <Button variant="primary" type="submit" block>Register</Button>
                         </Form>
+                    </Col>
+                    <Col>
+                        <img src="./images/background-signup.jpeg" />
                     </Col>
                 </Row>
             </Container>
