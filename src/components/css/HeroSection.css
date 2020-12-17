@@ -5,7 +5,7 @@ img {
 }
 
 .hero-container{  
-    background-image: url(../images/house.jpg);
+    background-image: url(/src/images/house.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;

@@ -1,4 +1,4 @@
-import './HouseTemplate.css'
+import './css/HouseTemplate.css'
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import Image from 'react-bootstrap/Image'

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './HeroSection.css'
+import './css/HeroSection.css'
 import DropdownButton from 'react-bootstrap/DropdownButton'
 import Dropdown from 'react-bootstrap/Dropdown'
 import DropdownItem from 'react-bootstrap/esm/DropdownItem'

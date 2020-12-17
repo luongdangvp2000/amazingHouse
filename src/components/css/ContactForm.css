@@ -1,0 +1,13 @@
+.contact-section {
+    background: url(/src/images/light.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: insert 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    position: absolute;
+}

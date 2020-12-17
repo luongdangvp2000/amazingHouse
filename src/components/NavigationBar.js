@@ -3,7 +3,7 @@ import { Button, Modal } from 'react-bootstrap';
 import Col from 'react-bootstrap/Col';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import './NavigationBar.css';
+import './css/NavigationBar.css';
 import { Tabs, Tab } from 'react-bootstrap'
 import Home from '../components/pages/Home'
 import AboutUs from './pages/AboutUs'
