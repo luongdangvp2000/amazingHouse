@@ -32,9 +32,7 @@ function HouseTemplate() {
                         <p>Mini Apartment is a new trending of young living style. A big part of young people such as student, single person, ... usually choose this living style cause it's cheap and convenient</p>
                     </Col>
                 </Row>
-
             </Container>
-
         </>
     );
 }
