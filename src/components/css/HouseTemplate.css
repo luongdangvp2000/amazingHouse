@@ -1,3 +1,24 @@
+.house-container{
+    background-color: beige;
+}
+
+.house-card{
+    display: flex;
+    margin: 1rem auto;
+    box-shadow: 0 3px 7px -1px rgba(#000, .1);
+    background: white;
+    border-radius: 5px;
+    padding: 0 1.5rem;
+    
+}
+
+.photo{
+    transition: transform 1s;
+}
+
+.house-card .photo:hover{
+    transform: scale(1.07);
+}
 
 .text-content{
     writing-mode: vertical-rl;
@@ -7,9 +28,15 @@
     transform: rotate(180deg);
     text-align: center;
     padding: 10px;
+    margin-bottom: 5px;
+    align-items: center;
 }
 
-.garden-house, .apartment, .mini-apartment{
-    box-sizing: border-box;
-    border-color: rbga(orange, 1);
+.description p::first-letter{
+    margin-left: 1rem;
 }
+
+.description .title::first-letter{
+    margin-left: 1rem;
+}
+
