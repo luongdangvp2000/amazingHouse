@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 .house-container{
     background-color: beige;
 }
@@ -5,15 +8,23 @@
 .house-card{
     display: flex;
     margin: 1rem auto;
-    box-shadow: 0 3px 7px -1px rgba(#000, .1);
+    box-shadow: 2px .8rem 1rem rgba(0,0,0,.05);
     background: white;
     border-radius: 5px;
     padding: 0 1.5rem;
-    
+    flex-direction: row;
+    max-width: 75rem;
+}
+
+.image-data{
+    overflow: hidden;
+    height: 25rem;
+    position: relative
 }
 
 .photo{
     transition: transform 1s;
+    size: cover;
 }
 
 .house-card .photo:hover{
@@ -40,3 +51,13 @@
     margin-left: 1rem;
 }
 
+.description{
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    position: relative;
+}
+
+.title{
+    margin-bottom:1rem;
+    font-weight: bold;
+}

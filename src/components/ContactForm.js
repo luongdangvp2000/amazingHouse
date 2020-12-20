@@ -60,7 +60,7 @@ function ContactForm() {
                             </div>
                         </div>
                         <div className="col-lg-4">
-                            <div className="card-body contact text-center h-100 white-text">
+                            <div className="card-body contact text-center white-text">
                                 <h3 className="my-4 pb-2">Contact information</h3>
                                 <ul className="text-lg-left list-unstyled ml-4">
                                     <li>
