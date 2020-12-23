@@ -14,7 +14,7 @@ function CardIntro() {
                     <Card.Text>Front-End Developer</Card.Text>
                     <Card.Text>Make our life better is my happiness.</Card.Text>
                     <Card.Text>luongdangvp2000@gmail.com</Card.Text>
-                    <Card.Text><Button className="btn btn-info">Contact</Button></Card.Text>
+                    <Card.Text><Button className="btn btn-info"><a href="https://www.facebook.com/luongdangvp/">Contact</a></Button></Card.Text>
                 </Card.Body>
 
             </Card>
@@ -25,7 +25,7 @@ function CardIntro() {
                     <Card.Text>Back-End Developer</Card.Text>
                     <Card.Text>Always try our best for u.</Card.Text>
                     <Card.Text>vuvanthang@gmail.com</Card.Text>
-                    <Card.Text><Button className="btn btn-info">Contact</Button></Card.Text>
+                    <Card.Text><Button className="btn btn-info"><a href="https://www.facebook.com/vuvanthangs/">Contact</a></Button></Card.Text>
                 </Card.Body>
 
             </Card>
@@ -36,7 +36,7 @@ function CardIntro() {
                     <Card.Text>Data-Scientist</Card.Text>
                     <Card.Text>Take many best choices for everyone.</Card.Text>
                     <Card.Text>hoangtrungdung@gmail.com</Card.Text>
-                    <Card.Text><Button className="btn btn-info">Contact</Button></Card.Text>
+                    <Card.Text><Button className="btn btn-info"><a href="https://www.facebook.com/hoangtrungdung2000/">Contact</a></Button></Card.Text>
                 </Card.Body>
 
             </Card>
