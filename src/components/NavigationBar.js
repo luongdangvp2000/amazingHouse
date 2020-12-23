@@ -12,8 +12,6 @@ import LogIn from './pages/LogIn'
 
 function NavigationBar() {
 
-  const [signupShow, setSignupShow] = useState(false);
-
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top">
       <Navbar.Brand className="col-8" href="#">House For U <i className="fas fa-home"></i></Navbar.Brand>
@@ -25,38 +23,11 @@ function NavigationBar() {
           <Nav.Item><button className="btn btn-light"><Nav.Link as={Link} className="nav-link" to="/aboutus">About us</Nav.Link></button></Nav.Item>
           <Nav.Item><button className="btn btn-light"><Nav.Link as={Link} className="nav-link" to="/contact">Contact</Nav.Link></button></Nav.Item>
           <Nav.Item><button className="btn btn-light"><Nav.Link as={Link} className="nav-link" to="/login">Login</Nav.Link></button></Nav.Item>
-          <Nav.Item><button className="btn btn-lgiht"><Nav.Link as={Link} className="nav-link" to="/signup">Sign up</Nav.Link></button></Nav.Item>
+          <Nav.Item><button className="btn btn-light"><Nav.Link as={Link} className="nav-link" to="/signup">Sign up</Nav.Link></button></Nav.Item>
         </Nav>
       </Navbar.Collapse>
 
-      <Modal className="nav-item" show={signupShow} onHide={() => setSignupShow(false)}>
-        <Modal.Header closeButton>
-          <Modal.Title>Sign Up</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <div className="form-group">
-            <label for="name-login">Name:</label>
-            <input type="text" className="form-control" id="name-login" />
-          </div>
-          <div className="form-group">
-            <label for="id-code-person">Id Code</label>
-            <input type="text" className="form-control" id="id-code-person" />
-          </div>
-          <div className="form-group">
-            <label for="address">Address</label>
-            <input type="text" className="form-control" id="address" />
-          </div>
-          <div className="form-group">
-            <label for="number-phone">Number Phone</label>
-            <input type="text" className="form-control" id="number-phone" />
-          </div>
-          <div className="form-group">
-            <label for="email">Email</label>
-            <input type="email" className="form-control" id="Email" />
-          </div>
-          <Button className="btn btn-success btn-block btn-lg">Sign Up</Button>
-        </Modal.Body>
-      </Modal>
+    
     </Navbar >
   );
 }

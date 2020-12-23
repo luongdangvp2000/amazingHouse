@@ -22,7 +22,6 @@ function App() {
           <Route path='/aboutus' component={AboutUs} />
           <Route path='/' extact component={Home} />
         </Switch>
-        
       </Router>
     </>
   );
