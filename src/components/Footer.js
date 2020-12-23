@@ -6,7 +6,7 @@ function Footer() {
     return (
         <>
             <div className="footer-container">
-                <Row className="text-center">
+                <Row className="text-center pt-2">
                     <Col className="copyright col-xs-12 col-sm-3 col-sm-pull-6">
                         <h1>House For U</h1>
                         <p> &copy; Me from now to eternity </p>
