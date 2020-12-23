@@ -7,7 +7,7 @@
 
 .house-card{
     display: flex;
-    margin: 1rem auto;
+    margin:1rem auto;
     box-shadow: 2px .8rem 1rem rgba(0,0,0,.05);
     background: white;
     border-radius: 5px;
